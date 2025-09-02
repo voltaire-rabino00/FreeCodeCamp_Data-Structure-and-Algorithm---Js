@@ -22,7 +22,7 @@ const cat = {
     name: "Whiskers",
     "Number of  legs": 4,
 };
-console.log(cat);
+console.log(cat["Number of  legs"]);
 
 // Initialize buttons
 button1.onclick = goStore;
