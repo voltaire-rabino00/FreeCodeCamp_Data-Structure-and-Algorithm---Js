@@ -110,6 +110,9 @@ function buyWeapon() {
   else {
     text.innerText = "You do not have enough gold to buy a weapon.";
   }
+  if (currentWeaponIndex < 3) {
+
+  }
 }
 
 function fightSlime () {
